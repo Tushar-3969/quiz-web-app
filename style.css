@@ -5,7 +5,7 @@ body {
 
 #quiz {
     height: 30.5rem;
-    width: 35rem;
+    width: 57rem;
     background-color: aliceblue;
     margin-top: 4.5rem;
     border-radius: 1rem;
@@ -44,7 +44,7 @@ ul li {
     display: flex;
     align-items: center; 
     border: 1px solid black;
-    width: 19rem;
+    width: 26rem;
     border-radius: 3rem;
     font-weight: 600;
     padding: 1rem 15px; 
@@ -63,21 +63,58 @@ label {
     cursor: pointer;
     margin-top: -0.2rem;
 }
+.result {
+    text-align: center;
+    height: 200px;
+}
+
+.result h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.result p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.reload-button {
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.reload-button:hover {
+    background-color: #1976d2;
+}
 @media (max-width: 768px) {
     #quiz {
-        width: 90%;
+        width: 80%;
         margin-top: 2rem;
     }
 
     ul li {
-        width: 90%;
+        width: 85%;
         font-size: 1rem;
     }
 
     #submit {
-        width: 90%;
+        width: 85%;
         padding: 15px;
         font-size: 1.2rem;
+        margin-top: -0.4rem;
+        padding: 0.5rem 0.5rem;
+    }
+    .result h2 {
+        font-size: 1.4rem;
+    }
+
+    .result p {
+        font-size: 1rem;
     }
 }
 
